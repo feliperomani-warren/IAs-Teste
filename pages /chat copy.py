@@ -16,7 +16,7 @@ embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_a
 
 # Configuração da Página
 st.set_page_config(page_title="Chatbot Gemini com RAG", page_icon="🤖", layout="wide")
-st.logo("assets/LogoWarrenRena.png", icon_image="assets/LogoWRena.png")
+st.logo("LogoWarrenRena.png", icon_image="LogoWRena.png")
 st.title("🤖 Chatbot Gemini com RAG")
 
 # Inicialização do vetorstore no session_state
