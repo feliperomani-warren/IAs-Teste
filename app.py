@@ -12,7 +12,7 @@ import streamlit as st
 #     "pages/Acompanhamento_Metas.py",
 #     title="Acompanhamento Metas",
 #     icon=":material/target:",
-)
+# )
 
 pagina_chat = st.Page(
     "pages/chat.py",
